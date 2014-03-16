@@ -52,7 +52,7 @@ function getResults(target1, target2, target3, elementName){
 	var result2 = generateRandom(target2.length)
 	var result3 = generateRandom(target3.length)
 	this.next = function(){
-		
+		myTable.rows[0].cells[0].innerHTML = "<h1>Noelkd</h1>"
 		result1 = doGeneration(target1, result1)
 		result2 = doGeneration(target2, result2)
 		result3 = doGeneration(target3, result3)
