@@ -64,12 +64,17 @@ function getResults(target1, target2, target3, elementName){
 
 
 	
-var target0 = "developer"
-var target1 = "programmer"
-var target2 = "problem solver"
-var tableName = "letable"
-var pump = new getResults(target0, target1, target2, tableName)
-var interval = setInterval(pump.next, 300);
+
+
+window.onload = function() {
+	var target0 = "developer"
+	var target1 = "programmer"
+	var target2 = "problem solver"
+	var tableName = "letable"
+  	var pump = new getResults(target0, target1, target2, tableName)
+  	var interval = setInterval(pump.next, 300);
+};
+
 
 
 
