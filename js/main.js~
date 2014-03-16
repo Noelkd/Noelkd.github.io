@@ -52,7 +52,7 @@ function getResults(target1, target2, target3, elementName){
 	var result2 = generateRandom(target2.length)
 	var result3 = generateRandom(target3.length)
 	this.next = function(){
-		
+		myTable.rows[0].cells[0].innerHTML = "<h1>Noelkd</h1>"
 		result1 = doGeneration(target1, result1)
 		result2 = doGeneration(target2, result2)
 		result3 = doGeneration(target3, result3)
@@ -64,12 +64,19 @@ function getResults(target1, target2, target3, elementName){
 
 
 	
-var target0 = "developer"
-var target1 = "programmer"
-var target2 = "problem solver"
-var tableName = "letable"
-var pump = new getResults(target0,target1, target2, tableName)
-var interval = setInterval(pump.next, 300);
+
+
+window.onload = function() {
+	var footer = document.getElementById("footer");
+	footer.innerHTML = "Noelkd ©"
+	var target0 = "developer"
+	var target1 = "programmer"
+	var target2 = "problem solver"
+	var tableName = "letable"
+  	var pump = new getResults(target0, target1, target2, tableName)
+  	var interval = setInterval(pump.next, 300);
+};
+
 
 
 
