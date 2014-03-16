@@ -3,12 +3,9 @@ body {
 	font-family: "Courier New", Courier, monospace;
 }
 
-#outercontainer {
 
-	postion: relative
-}
 
-#innercontainer {
+#container {
 
 	position:absolute; 
 	top:50%; 
