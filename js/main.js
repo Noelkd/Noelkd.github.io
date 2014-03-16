@@ -61,11 +61,6 @@ function getResults(target1, target2, target3, elementName){
 	}
 }	
 
-
-
-	
-
-
 window.onload = function() {
 	var footer = document.getElementById("footer");
 	footer.innerHTML = ""
