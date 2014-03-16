@@ -1,11 +1,6 @@
-"outercontainer" 
-""
-			
-"innercontainer"
-";
-				
-
-<table id="letable" style="margin: 0 auto;">
+body {
+    overflow:hidden;
+}
 
 #outercontainer {
 
