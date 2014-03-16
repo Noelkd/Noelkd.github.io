@@ -58,7 +58,7 @@ function getResults(target1, target2, target3, elementName){
 		result3 = doGeneration(target3, result3)
 		myTable.rows[0].cells[1].innerHTML = result1+"<br>"+result2+"<br>"+result3
 
-	}
+	}c
 }	
 
 
