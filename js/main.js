@@ -35,11 +35,15 @@ function generateString(generateFrom){
 
 function doGeneration(target, previousBest){
 	var previousBestScore = compare(target, previousBest)
+	var currentBestScore = 0
 	for (var i=0; i < 100; i++){
 		var current = generateString(previousBest)
-		
-		if (compare(target, current) > previousBestScore){
-			var generationBest = current	
+		var currentScore = compare(target, current) 
+		if (currentScore > previousBestScore){
+			if (currentScore > currentBestScore){
+			var generationBest = current
+			var currentBestScore = currentScore	
+		}
 	}
 }
 	if (generationBest){return generationBest}
