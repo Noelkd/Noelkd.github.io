@@ -12,6 +12,7 @@ function compare(target, ratee){
 	return score
 }
 
+// http://stackoverflow.com/a/1349426/1663352
 function generateRandom(length){
 	var newString = ""
 	var possible = "abcdefghijklmnopqrstuvwxyz "
