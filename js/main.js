@@ -69,6 +69,7 @@ window.onload = function() {
 	var target2 = "problem solver"
 	var tableName = "letable"
   	var pump = new getResults(target0, target1, target2, tableName)
+	pump.next()
   	var interval = setInterval(pump.next, 300);
 };
 
