@@ -11,6 +11,12 @@ footer {
 	bottom: 0;
 }
 
+h1 {
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 40pt;
+}
+
 #container {
 
 	position:absolute; 
